@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+html {
+	background:url('../images/background.jpg');
+	margin:0;
+	padding:0;
+}
+
+body {
+	width:740px;
+	margin:20px auto;
+	font-family:Calibri, Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+	color:#963;
+	margin:0;
+	padding:0;
+}
+
+.hide {
+	display:none;
+}
+
+.welcome {
+	float:left;
+	width:75%;
+	margin:0 0 20px 0;
+}
+
+.telephone {
+	float:right;
+	width:25%;
+	border-bottom:5px solid #963;
+	padding:0 0 10px 0;
+	font-size:24px;
+	margin:0 0 20px 0;
+}
+
+h2 {
+	border-bottom:5px solid #963;
+	padding:0 0 10px 0;
+	font-size:24px;
+}
+
+a {
+	color:#666;
+}
+
+a:hover {
+	color:#999;
+}
+
+img {
+	padding:0;
+	margin:0;
+}
+
+img.farm {
+	float:right;
+	border:8px solid #EEE;
+	margin:0 10px 20px 20px;
+	-webkit-box-shadow: 2px 2px 8px #999;
+	-moz-box-shadow: 2px 2px 8px #999;
+	box-shadow: 2px 2px 8px #999;
+}
+
+#header {
+	background:url('../images/banner.jpg');
+	background-repeat:no-repeat;
+	height:180px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#content {
+	background:#FFF;
+	padding:20px;
+}
+
+.pictures {
+	margin:20px 0 20px 15px;
+	padding:0;
+}
+
+.pictures li {
+	display:inline;
+	padding:0;
+}
+
+.pictures li a img {
+	border:8px solid #EEE;
+	margin:0 25px 0 0;
+	-webkit-box-shadow: 2px 2px 8px #999;
+	-moz-box-shadow: 2px 2px 8px #999;
+	box-shadow: 2px 2px 8px #999;
+}
+
+iframe {
+	border:8px solid #EEE;
+	box-shadow: 2px 2px 8px #999;
+	-webkit-box-shadow: 2px 2px 8px #999;
+	-moz-box-shadow: 2px 2px 8px #999;
+}
+
+#footer {
+	font-family:Cambria, Georgia, "Times New Roman", Times, serif;
+	background:#793D00;
+	color:#FFF;
+	padding:20px;
+	text-align:center;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#footer p {
+	margin:0;
+}
+
+#footer a {
+	color:#FFF;
+}
